@@ -12,5 +12,19 @@
   <h1>Testing for Nextime Page!</h1>
   <p>Double decker page labs.</p>
   <p>To Be Hero X</p>
+
+  <h1 id="welcome">Hello!</h1>
+  <button id="btn">Click Me</button>
+
+  <script>
+    // Grab the elements
+    const heading = document.getElementById("welcome");
+    const button = document.getElementById("btn");
+
+    // Add an event listener
+    button.addEventListener("click", () => {
+      heading.textContent = "You clicked the button!";
+    });
+  </script>
 </body>
 </html>
